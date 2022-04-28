@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=DM+Sans:regular,italic,500,500italic,700,700italic" rel="stylesheet" />
+    <link rel="icon" type="image/x-icon" href="./icon.png">
+    <title>Oscars 2022</title>
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 5rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 2rem;
+    }
+
+    .about {
+      width: 70%;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    h1{
+      border-bottom: 1px solid rgb(160, 160, 160);
+      font-family: 'Poppins';
+      font-size: 2rem;
+      line-height: 2.5rem;
+    }
+
+    p {
+      font-family: 'DM Sans';
+      font-size: 1rem;
+      line-height: 1.5rem;
+    }
+
+    .image-container a {
+      border: none;
+      background: none;
+    }
+
+    img {
+      transition: all 0.3s;
+    }
+
+    img:hover {
+      transform: scale(1.1);
+    }
+
+    h2, th {
+      font-family: 'Poppins';
+    }
+
+    th {
+      border-bottom: 1px solid rgb(160, 160, 160);
+    }
+
+    td{
+      font-family: 'DM Sans';
+      min-height: 1rem;
+      padding: 0.5rem;
+    }
+
+    a {
+    
+      color: #000;
+      text-decoration: none;
+      background-color: whitesmoke;
+      border: 1px solid lightgray;
+      border-radius: 5px;
+      padding: 5px;
+    }
+
+    .center {
+      text-align: center;
+    }
+  </style>
+  <body>
+    <section class="about">
+      <h1>Oscars 2022</h1>
+
+      <p>A <b>94.ª cerimônia</b> de entrega dos Academy Awards, ou Oscar 2022, (no original em inglês: <i>94th Academy Awards</i>), foi apresentada pela Academia de Artes e Ciências Cinematográficas (AMPAS) e homenageou os melhores atores, técnicos e filmes lançados de 1 de março a 31 de dezembro de 2021. Ocorreu no Teatro Dolby, em Los Angeles, Califórnia, em 27 de março de 2022.</p>
+
+      <p>As listas dos filmes pré-indicados para concorrer a indicações em dez categorias foram anunciadas em 21 de dezembro de 2021. <a href="#best-movies">
+        <strong>Confira aqui os indicados a melhor filme</strong>
+      </a>.</p>
+    </section>
+
+    <section class="image-container">
+      <a href="./oscar-2022.webp" target="_blank"><img src="./oscar-2022.webp" alt="Filmes indicados ao Oscars 2022"></a>
+    </section>
+
+    <section class="award" id="best-movies">
+      <h2 class="center">Melhor Filme</h2>
+      <table>
+        <tr>
+          <th>Filme</th>
+          <th>Direção</th>
+          <th>Gênero</th>
+          <th>Nota pelo IMDB</th>
+        </tr>
+        <tr>
+          <td><a href="https://www.imdb.com/title/tt10366460/" target="_blank"><strong>CODA (No Ritmo do Coração)</strong></a>🏆</td>
+          <td>Sian Heder</td>
+          <td>Comédia Dramática</td>
+          <td class="center">8.0/10</td>
+        </tr>
+        <tr>
+          <td><a href="https://www.imdb.com/title/tt12789558/?ref_=fn_al_tt_1" target="_blank"><strong>Belfast</strong></a></td>
+          <td>Kenneth Branagh</td>
+          <td>Drama</td>
+          <td class="center">7.3/10</td>
+        </tr>
+        <tr>
+          <td><a href="https://www.imdb.com/title/tt11286314/?ref_=fn_al_tt_1" target="_blank"><strong>Don't Look Up (Não Olhe Para Cima)</strong></a></td>
+          <td>Adam McKay</td>
+          <td>Sátira Política</td>
+          <td class="center">7.2/10</td>
+        </tr>
+        <tr>
+          <td><a href="https://www.imdb.com/title/tt14039582/?ref_=nv_sr_srsg_0" target="_blank"><strong>Doraibu mai kā (Drive my car)</strong></a></td>
+          <td>Ryūsuke Hamaguchi</td>
+          <td>Drama</td>
+          <td class="center">7.6/10</td>
+        </tr>
+        <tr>
+          <td><a href="https://www.imdb.com/title/tt1160419/?ref_=nv_sr_srsg_0" target="_blank"><strong>Dune (Duna)</strong></a></td>
+          <td>Denis Villeneuve</td>
+          <td>Ficção-científica</td>
+          <td class="center">8.1/10</td>
+        </tr>
+        <tr>
+          <td><a href="https://www.imdb.com/title/tt9620288/?ref_=nv_sr_srsg_0" target="_blank"><strong>King Richard (King Richard: Criando Campeãs)</strong></a></td>
+          <td>Reinaldo Marcus Green</td>
+          <td>Cinebiografia</td>
+          <td class="center">7.5/10</td>
+        </tr>
+        <tr>
+          <td><a href="https://www.imdb.com/title/tt11271038/?ref_=nv_sr_srsg_0" target="_blank"><strong>Licorice Pizza</strong></a></td>
+          <td>Paul Thomas Anderson</td>
+          <td>Comédia Dramática</td>
+          <td class="center">7.3/10</td>
+        </tr>
+        <tr>
+          <td><a href="https://www.imdb.com/title/tt7740496/?ref_=nv_sr_srsg_0" target="_blank"><strong>Nightmare Alley (O Beco do Pesadelo)</strong></a></td>
+          <td>Guillermo del Toro</td>
+          <td>Suspense</td>
+          <td class="center">7.1/10</td>
+        </tr>
+        <tr>
+          <td><a href="https://www.imdb.com/title/tt10293406/?ref_=nv_sr_srsg_0" target="_blank"><strong>The Power of the Dog (Ataque dos Cães)</strong></a></td>
+          <td>Jane Campion</td>
+          <td>Drama</td>
+          <td class="center">6.9/10</td>
+        </tr>
+        <tr>
+          <td><a href="https://www.imdb.com/title/tt3581652/?ref_=nv_sr_srsg_0" target="_blank"><strong>West Side Story(Amor, Sublime Amor)</strong></a></td>
+          <td>Steven Spielberg</td>
+          <td>Musical de romance</td>
+          <td class="center">7.3/10</td>
+        </tr>
+      </table>
+    </section>
+  </body>
+</html>
